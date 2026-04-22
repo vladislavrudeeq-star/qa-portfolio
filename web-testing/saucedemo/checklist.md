@@ -1,0 +1,36 @@
+# SauceDemo Checklist
+## Login Functionality
+- Login with valid credentials (standard_user / secret_sauce)
+- Login with invalid password
+- Login with invalid username
+- Login with empty username
+- Login with empty password
+- Login with both fields empty
+- Error message validation
+## Inventory Page
+- Products are displayed in correct order after sorting
+- Product names are visible
+- Product prices are displayed
+- Product images are displayed
+- ## Cart
+- Add product to cart
+- Remove product from cart
+- Cart badge updates correctly
+- Cart retains items after page refresh
+- ## Sorting
+- Sort products by name (A-Z)
+- Sort products by name (Z-A)
+- Sort products by price (low to high)
+- Sort products by price (high to low)
+- Product order changes correctly after sorting
+- ## Behavior
+- Page refresh does not break session
+- User stays logged in after refresh
+- Rapid clicking on Add to cart button
+- Adding multiple products works correctly
+- Logout functionality works correctly
+- User cannot access inventory page without login
+- ## Navigation
+- Open product details page
+- Navigate back to inventory page
+- URL changes correctly when navigating
