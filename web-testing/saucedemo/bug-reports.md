@@ -59,3 +59,34 @@ Products should be removed from cart when clicking "Remove".
 
 **Note:**
 Issue is reproducible only for problem_user. Works correctly for standard_user.
+
+---
+
+## [BUG-3] Product data is displayed incorrectly for problem_user
+
+**Environment:**
+- Browser: Chrome
+- Platform: Web
+- User: problem_user
+
+**Preconditions:**
+User is logged in as problem_user
+
+**Steps to reproduce:**
+1. Open https://www.saucedemo.com/
+2. Log in as problem_user
+3. Observe product list on inventory page
+
+**Actual result:**
+- All product images are identical
+- Product descriptions do not match the products
+- Some product names do not correspond to displayed items
+
+**Expected result:**
+Each product should display correct image, name, and description.
+
+**Severity:** High  
+**Priority:** High  
+
+**Note:**
+Issue is reproducible only for problem_user. Works correctly for standard_user.
